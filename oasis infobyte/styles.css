@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=IBM+Plex+Mono:wght@300&family=Lato:wght@300&family=PT+Serif&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Lato', sans-serif;
+}
+section{
+    min-height: 100vh;
+    background-image:url(girl\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+
+    height: 80px;
+}
+nav h1{
+    color: rgb(163, 131, 182);
+    float: left;
+    display: flex;
+    align-items: center;
+    line-height: 80px;
+    font-size: 35px;
+
+}
+nav ul {
+    float:right;
+    line-height: 70px;
+    color: #d0b1e2;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: #6d1a6d;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: #b7a4d6;
+    transition: 0.5s ease;
+}
+.ARTICLE{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.ARTICLE h1{
+    font-size: 40px;
+    color:rgb(49, 3, 49);
+    transform: translateY(-10vh);
+    font-weight: 900;
+    letter-spacing: 7px;
+
+}
+.ARTICLE h3{
+    transform: translateY(-10vh);
+}
+.btn:hover{
+    background-color: #b7a4d6;
+    transition: 0.5s ease;    
+    }
+.ARTICLE .btn{
+    padding: -12px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transform:rotateX('180deg');
+}
+
